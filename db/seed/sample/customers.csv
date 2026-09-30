@@ -1,0 +1,41 @@
+customer_id,customer_unique_id,customer_name,customer_zip_code_prefix,customer_city,customer_state
+customer_000,unique_000,Bruno Oliveira,20000,rio de janeiro,RJ
+customer_001,unique_001,Natalia Silva,20091,salvador,BA
+customer_002,unique_002,Natalia Rodrigues,20182,salvador,BA
+customer_003,unique_003,Paula Rodrigues,20273,belo horizonte,MG
+customer_004,unique_004,Otavio Martins,20364,porto alegre,RS
+customer_005,unique_005,Tiago Gomes,20455,belo horizonte,MG
+customer_006,unique_006,Rafael Oliveira,20546,sao paulo,SP
+customer_007,unique_007,Gabriela Rodrigues,20637,sao paulo,SP
+customer_008,unique_008,Gabriela Silva,20728,porto alegre,RS
+customer_009,unique_009,Vanessa Martins,20819,curitiba,PR
+customer_010,unique_010,Tiago Silva,20910,curitiba,PR
+customer_011,unique_011,Larissa Silva,21001,sao paulo,SP
+customer_012,unique_012,Bruno Carvalho,21092,sao paulo,SP
+customer_013,unique_013,Rafael Lima,21183,curitiba,PR
+customer_014,unique_014,Sofia Oliveira,21274,rio de janeiro,RJ
+customer_015,unique_015,Bruno Lima,21365,curitiba,PR
+customer_016,unique_016,Carla Barbosa,21456,belo horizonte,MG
+customer_017,unique_017,Felipe Santos,21547,rio de janeiro,RJ
+customer_018,unique_018,Yasmin Santos,21638,belo horizonte,MG
+customer_019,unique_019,Hugo Almeida,21729,sao paulo,SP
+customer_020,unique_020,Diego Carvalho,21820,rio de janeiro,RJ
+customer_021,unique_021,Hugo Carvalho,21911,belo horizonte,MG
+customer_022,unique_022,Yasmin Silva,22002,belo horizonte,MG
+customer_023,unique_023,Yasmin Santos,22093,rio de janeiro,RJ
+customer_024,unique_024,Otavio Gomes,22184,porto alegre,RS
+customer_025,unique_025,Vanessa Carvalho,22275,curitiba,PR
+customer_026,unique_026,Sofia Ferreira,22366,salvador,BA
+customer_027,unique_027,Isabela Souza,22457,belo horizonte,MG
+customer_028,unique_028,Larissa Souza,22548,curitiba,PR
+customer_029,unique_029,Isabela Almeida,22639,salvador,BA
+customer_030,unique_002,Natalia Rodrigues,22730,curitiba,PR
+customer_031,unique_024,Otavio Gomes,22821,sao paulo,SP
+customer_032,unique_027,Isabela Souza,22912,salvador,BA
+customer_033,unique_007,Gabriela Rodrigues,23003,curitiba,PR
+customer_034,unique_005,Tiago Gomes,23094,belo horizonte,MG
+customer_035,unique_013,Rafael Lima,23185,salvador,BA
+customer_036,unique_015,Bruno Lima,23276,sao paulo,SP
+customer_037,unique_023,Yasmin Santos,23367,rio de janeiro,RJ
+customer_038,unique_006,Rafael Oliveira,23458,belo horizonte,MG
+customer_039,unique_012,Bruno Carvalho,23549,sao paulo,SP

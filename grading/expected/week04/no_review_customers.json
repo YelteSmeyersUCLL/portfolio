@@ -1,0 +1,102 @@
+[
+  {
+    "customer_id": "cust_000007",
+    "customer_name": "Mariana Araujo",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000178",
+    "customer_name": "Elisa Teixeira",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000222",
+    "customer_name": "Sergio Almeida",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000298",
+    "customer_name": "Larissa Souza",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000373",
+    "customer_name": "Joao Monteiro",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000383",
+    "customer_name": "Marcos Cardoso",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000389",
+    "customer_name": "Eduardo Teixeira",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000440",
+    "customer_name": "Felipe Cardoso",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000489",
+    "customer_name": "Natalia Ferreira",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000555",
+    "customer_name": "Gabriela Silva",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000680",
+    "customer_name": "Gabriela Martins",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000786",
+    "customer_name": "Leonardo Almeida",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000839",
+    "customer_name": "Juliana Pereira",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_000891",
+    "customer_name": "Eduardo Monteiro",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_001029",
+    "customer_name": "Gustavo Rodrigues",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_001067",
+    "customer_name": "Sergio Carvalho",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_001130",
+    "customer_name": "Gabriela Barbosa",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_001163",
+    "customer_name": "Renata Ferreira",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_001209",
+    "customer_name": "Pedro Alves",
+    "orders_without_review": "1"
+  },
+  {
+    "customer_id": "cust_001261",
+    "customer_name": "Yasmin Lima",
+    "orders_without_review": "1"
+  }
+]

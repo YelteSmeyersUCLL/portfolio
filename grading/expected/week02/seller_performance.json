@@ -1,0 +1,242 @@
+[
+  {
+    "seller_id": "seller_19",
+    "seller_name": "Horizonte Distribuidora",
+    "items_sold": "6623",
+    "avg_review_score": "4.03"
+  },
+  {
+    "seller_id": "seller_14",
+    "seller_name": "Vale Verde Store",
+    "items_sold": "6465",
+    "avg_review_score": "3.95"
+  },
+  {
+    "seller_id": "seller_07",
+    "seller_name": "Cerrado Comercio",
+    "items_sold": "6376",
+    "avg_review_score": "4.05"
+  },
+  {
+    "seller_id": "seller_31",
+    "seller_name": "Nordeste Atacado",
+    "items_sold": "5773",
+    "avg_review_score": "4.06"
+  },
+  {
+    "seller_id": "seller_35",
+    "seller_name": "Planalto Utilidades",
+    "items_sold": "5137",
+    "avg_review_score": "4.03"
+  },
+  {
+    "seller_id": "seller_28",
+    "seller_name": "Horizonte Loja",
+    "items_sold": "4808",
+    "avg_review_score": "4.05"
+  },
+  {
+    "seller_id": "seller_02",
+    "seller_name": "Horizonte Comercio",
+    "items_sold": "4663",
+    "avg_review_score": "3.99"
+  },
+  {
+    "seller_id": "seller_21",
+    "seller_name": "Bom Preco Comercio",
+    "items_sold": "4379",
+    "avg_review_score": "3.83"
+  },
+  {
+    "seller_id": "seller_38",
+    "seller_name": "Porto Utilidades",
+    "items_sold": "4056",
+    "avg_review_score": "4.04"
+  },
+  {
+    "seller_id": "seller_11",
+    "seller_name": "Planalto Store",
+    "items_sold": "3836",
+    "avg_review_score": "4.06"
+  },
+  {
+    "seller_id": "seller_20",
+    "seller_name": "Porto Distribuidora",
+    "items_sold": "3786",
+    "avg_review_score": "4.06"
+  },
+  {
+    "seller_id": "seller_13",
+    "seller_name": "Sul Store",
+    "items_sold": "3785",
+    "avg_review_score": "4.08"
+  },
+  {
+    "seller_id": "seller_27",
+    "seller_name": "Pampa Store",
+    "items_sold": "3348",
+    "avg_review_score": "4.06"
+  },
+  {
+    "seller_id": "seller_18",
+    "seller_name": "Aurora Utilidades",
+    "items_sold": "2639",
+    "avg_review_score": "4.09"
+  },
+  {
+    "seller_id": "seller_32",
+    "seller_name": "Nordeste Importados",
+    "items_sold": "2633",
+    "avg_review_score": "4.00"
+  },
+  {
+    "seller_id": "seller_30",
+    "seller_name": "Horizonte Importados",
+    "items_sold": "2594",
+    "avg_review_score": "4.09"
+  },
+  {
+    "seller_id": "seller_37",
+    "seller_name": "Horizonte Utilidades",
+    "items_sold": "2483",
+    "avg_review_score": "4.10"
+  },
+  {
+    "seller_id": "seller_39",
+    "seller_name": "Planalto Distribuidora",
+    "items_sold": "2373",
+    "avg_review_score": "4.11"
+  },
+  {
+    "seller_id": "seller_33",
+    "seller_name": "Bom Preco Atacado",
+    "items_sold": "2062",
+    "avg_review_score": "3.93"
+  },
+  {
+    "seller_id": "seller_10",
+    "seller_name": "Vale Verde Store",
+    "items_sold": "2061",
+    "avg_review_score": "4.01"
+  },
+  {
+    "seller_id": "seller_40",
+    "seller_name": "Central Distribuidora",
+    "items_sold": "1936",
+    "avg_review_score": "4.13"
+  },
+  {
+    "seller_id": "seller_22",
+    "seller_name": "Planalto Variedades",
+    "items_sold": "1897",
+    "avg_review_score": "4.04"
+  },
+  {
+    "seller_id": "seller_05",
+    "seller_name": "Nordeste Variedades",
+    "items_sold": "1879",
+    "avg_review_score": "3.93"
+  },
+  {
+    "seller_id": "seller_12",
+    "seller_name": "Vale Verde Importados",
+    "items_sold": "1835",
+    "avg_review_score": "4.11"
+  },
+  {
+    "seller_id": "seller_03",
+    "seller_name": "Horizonte Store",
+    "items_sold": "1821",
+    "avg_review_score": "4.11"
+  },
+  {
+    "seller_id": "seller_34",
+    "seller_name": "Capital Loja",
+    "items_sold": "1754",
+    "avg_review_score": "4.08"
+  },
+  {
+    "seller_id": "seller_25",
+    "seller_name": "Estrela Loja",
+    "items_sold": "1706",
+    "avg_review_score": "4.11"
+  },
+  {
+    "seller_id": "seller_17",
+    "seller_name": "Sul Store",
+    "items_sold": "1704",
+    "avg_review_score": "4.05"
+  },
+  {
+    "seller_id": "seller_06",
+    "seller_name": "Planalto Loja",
+    "items_sold": "1692",
+    "avg_review_score": "4.00"
+  },
+  {
+    "seller_id": "seller_15",
+    "seller_name": "Porto Comercio",
+    "items_sold": "1484",
+    "avg_review_score": "4.01"
+  },
+  {
+    "seller_id": "seller_26",
+    "seller_name": "Aurora Loja",
+    "items_sold": "1432",
+    "avg_review_score": "3.90"
+  },
+  {
+    "seller_id": "seller_36",
+    "seller_name": "Aurora Distribuidora",
+    "items_sold": "1416",
+    "avg_review_score": "4.17"
+  },
+  {
+    "seller_id": "seller_24",
+    "seller_name": "Sul Loja",
+    "items_sold": "1415",
+    "avg_review_score": "4.16"
+  },
+  {
+    "seller_id": "seller_09",
+    "seller_name": "Bom Preco Importados",
+    "items_sold": "1411",
+    "avg_review_score": "4.13"
+  },
+  {
+    "seller_id": "seller_29",
+    "seller_name": "Pampa Store",
+    "items_sold": "1406",
+    "avg_review_score": "4.05"
+  },
+  {
+    "seller_id": "seller_08",
+    "seller_name": "Central Distribuidora",
+    "items_sold": "1401",
+    "avg_review_score": "3.95"
+  },
+  {
+    "seller_id": "seller_23",
+    "seller_name": "Litoral Atacado",
+    "items_sold": "1375",
+    "avg_review_score": "4.02"
+  },
+  {
+    "seller_id": "seller_04",
+    "seller_name": "Central Utilidades",
+    "items_sold": "1350",
+    "avg_review_score": "4.03"
+  },
+  {
+    "seller_id": "seller_16",
+    "seller_name": "Porto Importados",
+    "items_sold": "1343",
+    "avg_review_score": "4.05"
+  },
+  {
+    "seller_id": "seller_01",
+    "seller_name": "Sul Atacado",
+    "items_sold": "1322",
+    "avg_review_score": "4.10"
+  }
+]

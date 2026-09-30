@@ -1,0 +1,41 @@
+seller_id,seller_name,seller_zip_code_prefix,seller_city,seller_state
+seller_01,Sul Atacado,65072,sao luis,MA
+seller_02,Horizonte Comercio,03204,sao paulo,SP
+seller_03,Horizonte Store,87050,maringa,PR
+seller_04,Central Utilidades,12940,atibaia,SP
+seller_05,Nordeste Variedades,14940,ibitinga,SP
+seller_06,Planalto Loja,14940,ibitinga,SP
+seller_07,Cerrado Comercio,15025,sao jose do rio preto,SP
+seller_08,Central Distribuidora,08250,sao paulo,SP
+seller_09,Bom Preco Importados,14070,ribeirao preto,SP
+seller_10,Vale Verde Store,14940,ibitinga,SP
+seller_11,Planalto Store,13232,campo limpo paulista,SP
+seller_12,Vale Verde Importados,22240,rio de janeiro,RJ
+seller_13,Sul Store,14840,guariba,SP
+seller_14,Vale Verde Store,14940,ibitinga,SP
+seller_15,Porto Comercio,12327,jacarei,SP
+seller_16,Porto Importados,42738,lauro de freitas,BA
+seller_17,Sul Store,13920,pedreira,SP
+seller_18,Aurora Utilidades,25645,petropolis,RJ
+seller_19,Horizonte Distribuidora,05849,sao paulo,SP
+seller_20,Porto Distribuidora,03426,sao paulo,SP
+seller_21,Bom Preco Comercio,08577,itaquaquecetuba,SP
+seller_22,Planalto Variedades,14050,ribeirao preto,SP
+seller_23,Litoral Atacado,14940,ibitinga,SP
+seller_24,Sul Loja,07112,guarulhos,SP
+seller_25,Estrela Loja,31255,belo horizonte,MG
+seller_26,Aurora Loja,14092,ribeirao preto,SP
+seller_27,Pampa Store,01212,sao paulo,SP
+seller_28,Horizonte Loja,04782,sao paulo,SP
+seller_29,Pampa Store,04102,sao paulo,SP
+seller_30,Horizonte Importados,37175,ilicinea,MG
+seller_31,Nordeste Atacado,09015,santo andre,SP
+seller_32,Nordeste Importados,14940,ibitinga,SP
+seller_33,Bom Preco Atacado,14940,ibitinga,SP
+seller_34,Capital Loja,11704,praia grande,SP
+seller_35,Planalto Utilidades,13405,piracicaba,SP
+seller_36,Aurora Distribuidora,37564,borda da mata,MG
+seller_37,Horizonte Utilidades,11701,praia grande,SP
+seller_38,Porto Utilidades,04160,sao paulo,SP
+seller_39,Planalto Distribuidora,13324,salto,SP
+seller_40,Central Distribuidora,13170,sumare,SP

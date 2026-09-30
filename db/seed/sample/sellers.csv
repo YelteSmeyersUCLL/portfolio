@@ -1,0 +1,9 @@
+seller_id,seller_name,seller_zip_code_prefix,seller_city,seller_state
+seller_000,Estrela Comercio,10000,salvador,BA
+seller_001,Sul Distribuidora,10137,salvador,BA
+seller_002,Bom Preco Variedades,10274,rio de janeiro,RJ
+seller_003,Litoral Comercio,10411,sao paulo,SP
+seller_004,Aurora Comercio,10548,curitiba,PR
+seller_005,Estrela Distribuidora,10685,sao paulo,SP
+seller_006,Litoral Atacado,10822,rio de janeiro,RJ
+seller_007,Litoral Distribuidora,10959,sao paulo,SP

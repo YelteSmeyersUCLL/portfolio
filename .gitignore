@@ -1,0 +1,4 @@
+node_modules/
+db/seed/_kaggle_raw/
+.env
+*.log

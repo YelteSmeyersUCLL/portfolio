@@ -1,0 +1,79 @@
+[
+  {
+    "seller_id": "seller_16",
+    "seller_name": "Porto Importados",
+    "seller_state": "BA",
+    "total_revenue": "353923.34",
+    "state_rank": "1"
+  },
+  {
+    "seller_id": "seller_01",
+    "seller_name": "Sul Atacado",
+    "seller_state": "MA",
+    "total_revenue": "164795.31",
+    "state_rank": "1"
+  },
+  {
+    "seller_id": "seller_30",
+    "seller_name": "Horizonte Importados",
+    "seller_state": "MG",
+    "total_revenue": "356012.99",
+    "state_rank": "1"
+  },
+  {
+    "seller_id": "seller_25",
+    "seller_name": "Estrela Loja",
+    "seller_state": "MG",
+    "total_revenue": "179423.24",
+    "state_rank": "2"
+  },
+  {
+    "seller_id": "seller_36",
+    "seller_name": "Aurora Distribuidora",
+    "seller_state": "MG",
+    "total_revenue": "160542.99",
+    "state_rank": "3"
+  },
+  {
+    "seller_id": "seller_03",
+    "seller_name": "Horizonte Store",
+    "seller_state": "PR",
+    "total_revenue": "200488.65",
+    "state_rank": "1"
+  },
+  {
+    "seller_id": "seller_18",
+    "seller_name": "Aurora Utilidades",
+    "seller_state": "RJ",
+    "total_revenue": "357304.87",
+    "state_rank": "1"
+  },
+  {
+    "seller_id": "seller_12",
+    "seller_name": "Vale Verde Importados",
+    "seller_state": "RJ",
+    "total_revenue": "312064.64",
+    "state_rank": "2"
+  },
+  {
+    "seller_id": "seller_14",
+    "seller_name": "Vale Verde Store",
+    "seller_state": "SP",
+    "total_revenue": "804136.70",
+    "state_rank": "1"
+  },
+  {
+    "seller_id": "seller_19",
+    "seller_name": "Horizonte Distribuidora",
+    "seller_state": "SP",
+    "total_revenue": "726993.02",
+    "state_rank": "2"
+  },
+  {
+    "seller_id": "seller_07",
+    "seller_name": "Cerrado Comercio",
+    "seller_state": "SP",
+    "total_revenue": "689410.85",
+    "state_rank": "3"
+  }
+]

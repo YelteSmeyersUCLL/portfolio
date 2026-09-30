@@ -1,0 +1,66 @@
+services:
+  db:
+    image: postgres:18
+    container_name: databasement-db
+    environment:
+      POSTGRES_USER: databasement
+      POSTGRES_PASSWORD: databasement
+      POSTGRES_DB: databasement
+    ports:
+      - "${DB_PORT:-58432}:5432"
+    volumes:
+      - db-data:/var/lib/postgresql
+      - ./db:/db
+      - ./db/init:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U databasement -d databasement"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  backend:
+    build: ./backend
+    container_name: databasement-backend
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://databasement:databasement@db:5432/databasement
+      PORT: 4000
+      APP_ROOT: /app
+    volumes:
+      - ./sql:/app/sql:ro
+      - ./widgets.yaml:/app/widgets.yaml:ro
+      - ./grading:/app/grading:ro
+      - ./db:/app/db:ro
+    ports:
+      - "${BACKEND_PORT:-58000}:4000"
+
+  frontend:
+    image: nginx:alpine
+    container_name: databasement-frontend
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+      - ./frontend/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./sql:/usr/share/nginx/sql-src:ro
+    ports:
+      - "${FRONTEND_PORT:-58080}:80"
+
+  grading:
+    build:
+      context: .
+      dockerfile: grading/Dockerfile
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://databasement:databasement@db:5432/databasement
+    volumes:
+      - ./:/app
+    working_dir: /app
+    profiles: ["tools"]
+
+volumes:
+  db-data:

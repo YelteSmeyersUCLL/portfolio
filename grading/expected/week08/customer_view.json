@@ -1,0 +1,14 @@
+[
+  {
+    "order_id": "order_075777",
+    "customer_id": "cust_014265",
+    "order_status": "canceled",
+    "order_purchase_timestamp": "2018-08-13T09:14:07.000Z"
+  },
+  {
+    "order_id": "order_072827",
+    "customer_id": "cust_010512",
+    "order_status": "delivered",
+    "order_purchase_timestamp": "2018-07-28T00:23:49.000Z"
+  }
+]

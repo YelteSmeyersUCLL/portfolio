@@ -1,0 +1,22 @@
+[
+  {
+    "payment_type": "credit_card",
+    "payment_count": "76795"
+  },
+  {
+    "payment_type": "boleto",
+    "payment_count": "19784"
+  },
+  {
+    "payment_type": "voucher",
+    "payment_count": "5775"
+  },
+  {
+    "payment_type": "debit_card",
+    "payment_count": "1529"
+  },
+  {
+    "payment_type": "not_defined",
+    "payment_count": "3"
+  }
+]

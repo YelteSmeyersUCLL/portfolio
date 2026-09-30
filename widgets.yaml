@@ -1,0 +1,180 @@
+# Widget registry.
+#
+# `kind: query`  -- read-only. The backend runs the .sql file as-is and
+#                   returns the rows. Unlocks automatically once it runs
+#                   without error and returns at least `min_rows` rows.
+#                   No JS needed.
+#
+# `kind: action`  -- something happens. The backend may set session
+#                    variables / switch Postgres role first (see `session`),
+#                    then runs the .sql file. Requires a matching .js file
+#                    that wires a button/input to POST /api/widgets/<id>.
+#
+# title/description are shown on the widget's locked state.
+#
+# A few widgets (marked below) are deliberately built around a real quirk
+# or a bit of intentionally messy seed data, rather than a clean abstract
+# spec -- the point is that noticing and handling it requires actually
+# looking at THIS dataset, not just pattern-matching a textbook query.
+
+weeks:
+  week01:
+    - id: top_products
+      kind: query
+      sql: sql/week01/top_products.sql
+      title: "Top products"
+      min_rows: 1
+
+    - id: orders_by_city
+      kind: query
+      sql: sql/week01/orders_by_city.sql
+      title: "Orders by city"
+      min_rows: 1
+
+    - id: revenue_by_category
+      kind: query
+      sql: sql/week01/revenue_by_category.sql
+      title: "Revenue by category"
+      min_rows: 1
+
+  week02:
+    - id: seller_performance
+      kind: query
+      sql: sql/week02/seller_performance.sql
+      title: "Seller performance"
+      min_rows: 1
+
+    - id: payment_method_breakdown
+      kind: query
+      sql: sql/week02/payment_method_breakdown.sql
+      title: "Payment methods"
+      min_rows: 1
+      # gotcha: payment_type has inconsistent case/whitespace in the seed
+      # data -- GROUP BY without normalizing overcounts categories.
+
+  week03:
+    - id: place_order
+      kind: action
+      sql: sql/week03/place_order.sql
+      js: sql/week03/place_order.js
+      title: "Place a demo order"
+
+  week04:
+    - id: no_review_customers
+      kind: query
+      sql: sql/week04/no_review_customers.sql
+      title: "Ghost customers"
+      min_rows: 1
+
+    - id: repeat_customers
+      kind: query
+      sql: sql/week04/repeat_customers.sql
+      title: "Repeat customers"
+      min_rows: 1
+      # gotcha: customer_id is per-ORDER, not per-person (mirrors real
+      # Olist). Grouping by customer_id undercounts repeat customers --
+      # the correct key is customer_unique_id.
+
+    - id: farthest_shipments
+      kind: query
+      sql: sql/week04/farthest_shipments.sql
+      title: "Farthest shipments"
+      min_rows: 1
+      # gotcha: geolocation has multiple lat/lng samples per zip prefix, not
+      # one -- a naive join from orders straight to geolocation multiplies
+      # rows silently. Needs a CTE to collapse to one row per zip first.
+
+  week05:
+    - id: seller_leaderboard
+      kind: query
+      sql: sql/week05/seller_leaderboard.sql
+      title: "Seller leaderboard"
+      min_rows: 1
+
+    - id: monthly_revenue_trend
+      kind: query
+      sql: sql/week05/monthly_revenue_trend.sql
+      title: "Monthly revenue trend"
+      min_rows: 1
+
+    - id: orders_page_two
+      kind: query
+      sql: sql/week05/orders_page_two.sql
+      title: "Orders — page 2"
+      min_rows: 1
+
+  week06:
+    - id: seller_summary_view
+      kind: query
+      sql: sql/week06/seller_summary_view.sql
+      title: "Seller summary"
+      min_rows: 1
+
+    - id: category_summary_view
+      kind: query
+      sql: sql/week06/category_summary_view.sql
+      title: "Category summary"
+      min_rows: 1
+
+  week08:
+    - id: rls_role_switch
+      kind: action
+      sql: sql/week08/rls_policy.sql
+      js: sql/week08/role_switch.js
+      title: "Who can see this customer's orders?"
+      params: [person_id, district]
+      session:
+        role_param: role
+        allowed_roles: [app_customer, app_district_admin, app_admin]
+        set_config:
+          - key: app.current_person_id
+            param: person_id
+          - key: app.current_district
+            param: district
+
+    - id: rls_seller_view
+      kind: action
+      sql: sql/week08/seller_rls_policy.sql
+      js: sql/week08/seller_view.js
+      title: "What can this seller see?"
+      params: [seller_id]
+      session:
+        role_param: role
+        allowed_roles: [app_seller]
+        set_config:
+          - key: app.current_seller_id
+            param: seller_id
+
+  week09:
+    - id: process_refund
+      kind: action
+      sql: sql/week09/process_refund.sql
+      js: sql/week09/process_refund.js
+      title: "Process refund"
+      params: [order_id]
+
+    - id: mark_delivered
+      kind: action
+      sql: sql/week09/mark_delivered.sql
+      js: sql/week09/mark_delivered.js
+      title: "Mark delivered"
+      params: [order_id]
+
+    - id: order_audit_log
+      kind: query
+      sql: sql/week09/order_audit_log.sql
+      title: "Audit log"
+      min_rows: 1
+
+  week10:
+    - id: priority_orders
+      kind: query
+      sql: sql/week10/add_priority_flag.sql
+      title: "Priority orders"
+      min_rows: 1
+
+    - id: loyalty_tiers
+      kind: query
+      sql: sql/week10/add_loyalty_tier.sql
+      title: "Loyalty tiers"
+      min_rows: 1

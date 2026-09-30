@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DBD Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Database Development Portfolio</h1>
+    <p>Practice. Make mistakes. Learn. Your queries power everything below.</p>
+    <div class="check-bar">
+      <button id="run-check-btn">Run full check</button>
+      <span class="check-note">Notice: this resets the database and takes time to run. Be patient.</code>.</span>
+    </div>
+    <div id="check-results"></div>
+  </header>
+
+  <main>
+    <div id="weeks"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Every widget on this page is backed by a SQL file in <code>sql/</code>.</p>
+  </footer>
+
+  <script src="helpers.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

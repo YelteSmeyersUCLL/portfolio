@@ -1,0 +1,12 @@
+[
+  {
+    "order_item_id": 1,
+    "product_id": "prod_00001",
+    "seller_id": "seller_01"
+  },
+  {
+    "order_item_id": 2,
+    "product_id": "prod_00002",
+    "seller_id": "seller_01"
+  }
+]
