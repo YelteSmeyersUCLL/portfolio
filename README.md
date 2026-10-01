@@ -48,22 +48,22 @@ fixable thing.
 
 ## 3. First-time setup
 
-1. Make sure **Docker Desktop is open and running** (not just installed —
+1. Copy `.env.example` to a new file named `.env`.
+If port 58080 (or 58432, or 58000) is already used by something else on your machine: change
+whichever port number conflicts. No other files need to change.
+
+2. Make sure **Docker Desktop is open and running** (not just installed —
    check for the running indicator).
-2. In a terminal, from inside the repo folder:
+3. In a terminal, from inside the repo folder:
    ```
    docker compose up -d
    ```
    (Mac/Linux users can also just run `make up`.) The first run takes a
    minute or two — it's downloading and building everything. You'll only
    wait like this once.
-3. Open **http://localhost:58080** in your browser. You should see the
+4. Open **http://localhost:58080** in your browser. You should see the
    Databasement dashboard, with most widgets showing "🔧 not wired up yet."
    That's correct — that's your starting point.
-
-**If port 58080 (or 58432, or 58000) is already used by something else on
-your machine**: copy `.env.example` to a new file named `.env`, and change
-whichever port number conflicts. No other files need to change.
 
 **Stuck?** `docker compose logs backend` (or `db`, or `frontend`) shows you
 what that piece is actually doing — paste the output when asking for help,
