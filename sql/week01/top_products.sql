@@ -13,7 +13,14 @@
 -- Hint: JOIN order_items to products for product_name (and the category,
 -- if you want it -- not required here, but good practice for later weeks).
 
-SELECT NULL::text AS product_id, NULL::text AS product_name, NULL::numeric AS total_revenue
-WHERE FALSE;
+-- SELECT NULL::text AS product_id, NULL::text AS product_name, NULL::numeric AS total_revenue
+-- WHERE FALSE;
 -- ^ placeholder so the widget builds and shows "locked" instead of erroring.
 -- Replace this whole query with your own.
+
+SELECT o.product_id, p.product_name, SUM(o.price) AS total_revenue
+FROM order_items o
+JOIN products p ON o.product_id = p.product_id
+GROUP BY o.product_id, p.product_name 
+ORDER BY total_revenue DESC
+FETCH FIRST 5 ROWS ONLY;
